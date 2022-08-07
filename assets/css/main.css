@@ -3,12 +3,20 @@
     height: 60px;
     margin-right: 2%;
     margin-left: 2%;
+    filter: grayscale(1);
+    transition: 0.3s;
 }
 
 .buildwith-sqlite{
   width:120px ;
   margin:1% 2%;
-  height:50px
+  height:50px;
+  filter: grayscale(1);
+}
+
+.buildwith-logo:hover,.buildwith-sqlite:hover{
+  filter: none;
+  transition: 0.3s;
 }
 
 #hero-img img{
@@ -18,6 +26,14 @@
 
 .link-text{
   color: #4dbd90;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.mb-5{
+  margin-bottom: 3rem!important;
 }
 
 
