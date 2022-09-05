@@ -1,3 +1,6 @@
+body{
+  font-family: 'Inter' !important;
+}
 .buildwith-logo{
     width: 60px;
     height: 60px;
@@ -36,6 +39,32 @@
   margin-bottom: 3rem!important;
 }
 
+.mt-5{
+  margin-top: 3rem!important;
+}
+
+.mt-3{
+  margin-top: 1.5rem!important;
+}
+
+#legal{
+  min-height: 70vh;
+}
+
+.footer-logo-text{
+    font-family: 'Roboto Slab', sans-serif;
+    color: #fff;
+    font-size: 27px;
+    font-weight: 500;
+    margin-left: 35px;
+    margin-top: 20%;
+}
+
+
+.text-success{
+  color: #4dbd90;
+  font-size: 1.5em;
+}
 
 @media only screen and (max-width: 500px) {
   #hero-img img{
