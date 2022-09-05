@@ -52,6 +52,14 @@ body{
 
 #legal{
   min-height: 70vh;
+  text-align: justify;
+  padding: 5%;
+}
+.desktop-screen{
+  display: block;
+}
+.mobile-screen{
+  display: none;
 }
 
 .footer-logo-text{
@@ -89,5 +97,16 @@ body{
     width:70px;
     margin:1% 2%;
     height:35px
+  }
+  .desktop-screen{
+    display: none;
+  }
+
+  .mobile-screen{
+    display: block;
+  }
+  .download-logo{
+    width: 30%;
+    text-align: center;
   }
 }
