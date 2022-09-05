@@ -46,6 +46,10 @@ body{
   margin-top: 1.5rem!important;
 }
 
+.mb-5{
+  margin-top: 3rem!important;
+}
+
 #legal{
   min-height: 70vh;
 }
@@ -59,10 +63,15 @@ body{
     margin-top: 20%;
 }
 
-
+.td-none{text-decoration: none;}
 .text-success{
   color: #4dbd90;
   font-size: 1.5em;
+}
+
+.download-logo{
+  width: 100%;
+  text-align: center;
 }
 
 @media only screen and (max-width: 500px) {
